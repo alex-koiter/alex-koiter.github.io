@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Projects</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Dr. Alex Koiter</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="lab.html">Lab Members</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="publications_etc.html">Publications etc.</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Projects</h1>
+
+</div>
+
+
+<div id="current-projects" class="section level2">
+<h2>Current Projects</h2>
+<p>My research, broadly speaking, focuses on the interaction between watershed management and geomorphology and how this affects both soil erosion, sediment delivery, and downstream sediment transport.</p>
+<div id="sediment-fingerprinting" class="section level3">
+<h3>Sediment Fingerprinting</h3>
+<p>Sediment fingerprinting refers to working in an upstream direction in an inferential manner to determine the source(s) of sediment. The approach is based on the idea that one or more of the natural physical or biogeochemical properties of the sediment will reflect its source, and therefore can be used diagnostically to identify the origin(s) of the sediment. My work has focused on using geochemical, radionuclide and colour fingerprints to assess the sources of sediment within a watershed and link it to land use/management and geomorphology.</p>
+<p>In these projects I both assess sources of sediment and refine the sediment fingerprinting approach. In particular, I am evaluating different types of tracers, refining sampling and modelling techniques, and assessing the benefit of including multiple lines of evidence. I currently have projects in the Tobacco Creek, La Salle River, South Tobacco Creek, and Wilson Creek watersheds.</p>
+<p><img src = "images/TC_Land_use_map.png" width = "50%" align = "right"> <img src = "images/TC_DEM_map.png" width = "50%" align = "left"> <img src = "images/LS_Land_use_map.png" width = "50%" align = "right"> <img src = "images/LS_DEM_map.png" width = "50%" align = "left"> <img src = "images/STC_Land_use_map.png" width = "50%" align = "right"> <img src = "images/STC_DEM_map.png" width = "50%" align = "left"> <img src = "images/Land_use_map_Wilsons.png" width = "50%" align = "right"> <img src = "images/DEM_map_Wilsons.png" width = "50%" align = "left"></p>
+</div>
+<div id="riparian-management" class="section level3">
+<h3>Riparian Management</h3>
+<p>The riparian zone is the linkage between the terrestrial and aquatic environments and as a result is characterized by very distinct gradients in environmental conditions and processes. The riparian zone has a number of processes, including infiltration, immobilization, sedimentation and dilution, that act to buffer and intercept the flow of both dissolved and particulate material to the aquatic environment. Because of these properties, the retention or installation of riparian zones along streams is a common best management practice used in agricultural regions to moderate stream temperatures, stabilize stream banks and reduce the amount of sediment- and nutrient-rich agricultural runoff entering surface waterways</p>
+<p>In these project I am investigating if cattle grazing can be used as a management tool to reduce the potential phosphorus loss from agricultural land. The loss of phosphorus is typically high during the spring snowmelt, as the vegetation from previous years acts as a source of phosphorus and the infiltration of runoff into the frozen soil is limited. While little can be done to promote infiltration of phosphorus during this period, the amount of vegetation remaining on the soil surface can be controlled through removal during the previous autumn. Cattle grazing in the riparian area is a potential management tool that can be used to accomplish this.</p>
+<p><a href="https://static1.squarespace.com/static/59431152f7e0ab3f0144bfe9/t/5e1e3dee2ee5903aac1eb4ea/1579040241754/2020-01-14+-+MBFI+eNewsletter+Jan+2020.pdf">Click here to see an article in the MBFI Newsletter</a></p>
+<p><img src = "images/grazed.jpg" width = "50%" align = "right"> <img src = "images/grazed2.jpg" width = "50%" align = "left"></p>
+</div>
+<div id="excess-moisture" class="section level3">
+<h3>Excess Moisture</h3>
+<p>Natural risks especially natural drought and flood occurrences caused by weather extremes constantly threaten the agriculture economy. Manitoba’s rapidly changing climate conditions are characterized by increased frequency and intensity of excess moisture events. Prolonged excess moisture conditions cause negative effects on agricultural operations that result in loss of crop yield, quality, and farm income. It is necessary for Manitoba producers to use yield forecast tools in order to understand the scope of excess moisture events influencing crop yield, and quality. This information would allow producers to respond appropriately in order to overcome the disaster.</p>
+<p>In these project I am assessing the impacts of excess moisture on crop yield, farm income, and identifying downstream costs and benefits of excess moisture events. This is being achieved through two main mechanisms: 1) interviewing farmers, agricultural/commodity organizations, and other stakeholders; and 2) validation of AquaCrop yield forecasting model for southern Manitoba.</p>
+<p><a href="https://www.brandonu.ca/rdi/projects/excess-moisture-management/">Click here to visit the RDI website for more information</a></p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
