@@ -1,4 +1,6 @@
-
+---
+title: "<span style = 'display:none;'>Dr. Alex Koiter</span>" 
+---
 <!-- Removed the title yaml to get the picture to stay at the top -->
 
 <img src = "images/IMG_9718111.jpg" width = "100%">
