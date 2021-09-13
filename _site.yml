@@ -8,6 +8,8 @@ navbar:
       href: about.html
     - text: "Lab Members"
       href: lab.html
+    - text: "Opportunities"
+      href: opportunities.html
     - text: "Projects"
       href: projects.html
     - text: "Publications etc."

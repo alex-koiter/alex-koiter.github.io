@@ -18,15 +18,6 @@ I joined Dr. Alex Koiter’s lab in 2019 where I gained academically relevant wo
 
 Pursuing my interests in Earth sciences, primarily in soil, agricultural, and watershed sciences, my M.Sc. research will focus on sediment fingerprinting (i.e., tracing) as a tool to address soil erosion and water quality issues. In particular, my proposed topic deals with understanding and quantifying field-scale variability in fingerprint properties and the implication this has for modelling sediment dynamics within the Wilson Creek Experimental watershed.
 
-### Colby Sobchuk
-<img src = "images/photo_CS.jpg" style = "float:right; max-width: 50%; height:auto;" width = "20%">
-<u>Biography</u>
-
-I was born and raised in Brandon,MB. I graduated from Vincent Massey High school, focusing on sciences while playing varsity volleyball. I was motivated to enroll in Brandon University’s Bsc. in Environmental Science, having grown up loving to do outdoor activities and hearing about environmental issues society is faced with. 
-
-I am fortunate and excited to help out Dr. Koiter’s team and gaining relevant work experience. I am mostly working with the phosphorus analysis portion of the project, which, includes creating the composite reagent to react with phosphorus and running the samples through the UV spectrometer. 
-
-While I haven’t found my particular niche yet, I love the general process of learning and understanding a wide array of problems and potential solutions.
 
 ### Adriana Avila
 
@@ -36,4 +27,4 @@ While I haven’t found my particular niche yet, I love the general process of l
 I am a Masters student with Dr. Koiter and Dr. Glenn from the Brandon Research and Development Centre. My research is focused on measuring greenhouse gas emissions from agricultural soil using the static chamber method. With this method, I am testing a reduced timestamp method which takes two timestamps from each chamber, and comparing it to a four timestamp method. I am also analyzing the greenhouse gases released from soils taken from three different landscape positions (upland, transition and wetland edge) with different moisture contents. 
 Before beginning my Masters degree, I completed my a Diploma of Land and Water Management from Assiniboine Community College (2016), then completed a joint program with Brandon University to earn my Undergraduate degree in Environmental Sciences (2019). Throughout my studies, I have always had a love for the environment and knew I wanted to pursue a career in this field, but it wasn’t until after working part time at the Brandon Research and Development Centre that I found my true passion for agricultural research with both soils and greenhouse gases.
 
-### Jonathon May
+
