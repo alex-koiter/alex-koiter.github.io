@@ -13,7 +13,7 @@
 
 <title>Dr. Alex Koiter</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -275,7 +276,8 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><span style="display:none;">Dr. Alex Koiter</span></h1>
+<h1 class="title toc-ignore"><span style="display:none;">Dr. Alex
+Koiter</span></h1>
 
 </div>
 
@@ -286,9 +288,22 @@ $(document).ready(function () {
 <h1>Dr. Alex Koiter</h1>
 <div id="sediment-on-the-move" class="section level4">
 <h4>Sediment on the move</h4>
-<p>Issues surrounding the impairment of soil and water quality are widespread and exist not only here in Canada, but it is also a problem facing many other countries. I believe that these are issues that need to be urgently addressed as every one’s well-being relies on access to clean water and healthy soils. As the global population continues to increase the pressures placed on our water and soil resources will also rise to meet the demand. The security and integrity of these resources and the ecosystem in which they exist are being threatened by human activity. It is imperative that all land and water be managed in a manner that does not compromise the environment or the people who live in it while still providing the water, food, fibre and fuel that is needed. This is not an easy task to accomplish and there is much discussion as to the best way to achieve our goals. I am glad to be part of the discussion.</p>
+<p>Issues surrounding the impairment of soil and water quality are
+widespread and exist not only here in Canada, but it is also a problem
+facing many other countries. I believe that these are issues that need
+to be urgently addressed as every one’s well-being relies on access to
+clean water and healthy soils. As the global population continues to
+increase the pressures placed on our water and soil resources will also
+rise to meet the demand. The security and integrity of these resources
+and the ecosystem in which they exist are being threatened by human
+activity. It is imperative that all land and water be managed in a
+manner that does not compromise the environment or the people who live
+in it while still providing the water, food, fibre and fuel that is
+needed. This is not an easy task to accomplish and there is much
+discussion as to the best way to achieve our goals. I am glad to be part
+of the discussion.</p>
 <hr />
-<p>Updated 2022-05-24</p>
+<p>Updated 2023-03-17</p>
 </div>
 </div>
 

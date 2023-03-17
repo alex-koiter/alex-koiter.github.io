@@ -13,7 +13,7 @@
 
 <title>Lab Members</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -286,10 +287,31 @@ $(document).ready(function () {
 <h3>María Alejandra Luna</h3>
 <p><img src = "images/Photo%20ML.jpg" style = "float:right; max-width: 50%; height:auto;" width = "20%"></p>
 <p><u>Biography</u></p>
-<p>I was born in Ecuador, a small country in South America. I moved to Canada in 2014 where I completed my high school in Prince Rupert, BC. Coming from a country that includes the Galápagos Islands and having the opportunity to visit the Charles Darwin Scientific Research Station has been a motivation in my life to be passionate about Earth and Life Sciences. For this reason, in September 2016, I started my Science degree at Brandon University, choosing geography as my major and mathematics as my minor. During my undergrad studies, I had the opportunity to meet magnificent professors who became my mentors and great support. In May 2020, I accomplished one of my main goals which was to graduate with a B.Sc. at BU.</p>
-<p>I joined Dr. Alex Koiter’s lab in 2019 where I gained academically relevant work experience as a student research assistant for a project implemented by Manitoba Association of Watersheds in partnership with Brandon University and Manitoba Beef and Forage Initiatives (MBFI). I am fortunate and excited to be a member of an incredible team of researchers in this lab.</p>
+<p>I was born in Ecuador, a small country in South America. I moved to
+Canada in 2014 where I completed my high school in Prince Rupert, BC.
+Coming from a country that includes the Galápagos Islands and having the
+opportunity to visit the Charles Darwin Scientific Research Station has
+been a motivation in my life to be passionate about Earth and Life
+Sciences. For this reason, in September 2016, I started my Science
+degree at Brandon University, choosing geography as my major and
+mathematics as my minor. During my undergrad studies, I had the
+opportunity to meet magnificent professors who became my mentors and
+great support. In May 2020, I accomplished one of my main goals which
+was to graduate with a B.Sc. at BU.</p>
+<p>I joined Dr. Alex Koiter’s lab in 2019 where I gained academically
+relevant work experience as a student research assistant for a project
+implemented by Manitoba Association of Watersheds in partnership with
+Brandon University and Manitoba Beef and Forage Initiatives (MBFI). I am
+fortunate and excited to be a member of an incredible team of
+researchers in this lab.</p>
 <p><u>Research Interests</u></p>
-<p>Pursuing my interests in Earth sciences, primarily in soil, agricultural, and watershed sciences, my M.Sc. research will focus on sediment fingerprinting (i.e., tracing) as a tool to address soil erosion and water quality issues. In particular, my proposed topic deals with understanding and quantifying field-scale variability in fingerprint properties and the implication this has for modelling sediment dynamics within the Wilson Creek Experimental watershed.</p>
+<p>Pursuing my interests in Earth sciences, primarily in soil,
+agricultural, and watershed sciences, my M.Sc. research will focus on
+sediment fingerprinting (i.e., tracing) as a tool to address soil
+erosion and water quality issues. In particular, my proposed topic deals
+with understanding and quantifying field-scale variability in
+fingerprint properties and the implication this has for modelling
+sediment dynamics within the Wilson Creek Experimental watershed.</p>
 </div>
 <div id="adriana-avila" class="section level3">
 <h3>Adriana Avila</h3>
@@ -297,7 +319,22 @@ $(document).ready(function () {
 <div id="autumn-wiebe" class="section level3">
 <h3>Autumn Wiebe</h3>
 <p><u>Biography</u></p>
-<p>I am a Masters student with Dr. Koiter and Dr. Glenn from the Brandon Research and Development Centre. My research is focused on measuring greenhouse gas emissions from agricultural soil using the static chamber method. With this method, I am testing a reduced timestamp method which takes two timestamps from each chamber, and comparing it to a four timestamp method. I am also analyzing the greenhouse gases released from soils taken from three different landscape positions (upland, transition and wetland edge) with different moisture contents. Before beginning my Masters degree, I completed my a Diploma of Land and Water Management from Assiniboine Community College (2016), then completed a joint program with Brandon University to earn my Undergraduate degree in Environmental Sciences (2019). Throughout my studies, I have always had a love for the environment and knew I wanted to pursue a career in this field, but it wasn’t until after working part time at the Brandon Research and Development Centre that I found my true passion for agricultural research with both soils and greenhouse gases.</p>
+<p>I am a Masters student with Dr. Koiter and Dr. Glenn from the Brandon
+Research and Development Centre. My research is focused on measuring
+greenhouse gas emissions from agricultural soil using the static chamber
+method. With this method, I am testing a reduced timestamp method which
+takes two timestamps from each chamber, and comparing it to a four
+timestamp method. I am also analyzing the greenhouse gases released from
+soils taken from three different landscape positions (upland, transition
+and wetland edge) with different moisture contents. Before beginning my
+Masters degree, I completed my a Diploma of Land and Water Management
+from Assiniboine Community College (2016), then completed a joint
+program with Brandon University to earn my Undergraduate degree in
+Environmental Sciences (2019). Throughout my studies, I have always had
+a love for the environment and knew I wanted to pursue a career in this
+field, but it wasn’t until after working part time at the Brandon
+Research and Development Centre that I found my true passion for
+agricultural research with both soils and greenhouse gases.</p>
 </div>
 </div>
 
