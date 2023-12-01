@@ -9,6 +9,8 @@ Brandon, Manitoba
 R7A 6A9 Canada  
 E-mail: <koitera@brandonu.ca>
 
-Research Gate Profile: <https://www.researchgate.net/profile/Alexander_Koiter>  
+Research Gate Profile: [Alexander-Koiter](https://www.researchgate.net/profile/Alexander_Koiter)   
 GitHub: [alex-koiter](https://github.com/alex-koiter)  
-ORCiD: <https://orcid.org/0000-0002-9355-9561>
+ORCiD: [0000-0002-9355-9561](https://orcid.org/0000-0002-9355-9561)  
+Mastadon: [@Alex_Koiter@sciencemastodon.com](https://sciencemastodon.com/@Alex_Koiter)  
+X: [@Alex_Koiter](https://twitter.com/Alex_Koiter) 
