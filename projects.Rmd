@@ -3,7 +3,23 @@ title: "Projects"
 ---
 
 ## Current Projects
-My research, broadly speaking, focuses on the interaction between watershed management and geomorphology and how this affects both soil erosion, sediment delivery, and downstream sediment transport.
+Dr. Alex Koiter specializes in agri-environmental systems research focused on land and water management practices and their implications for soil and water quality
+
+### Microplastics in Agricultural Soils
+Microplastics in agricultural soils are an emerging environmental concern, often introduced through sources like plastic mulch, biosolids, compost, and polymer-coated fertilizers. Our recent research found that castor oil-based polymer coatings on slow-release urea degrade much more slowly than expected, leading to buildup in the soil. We also discovered that these particles move downslope, accumulating in lower landscape positions, and documented for the first time how much of these materials are washed away during spring snowmelt in Manitoba demonstrating that farm fields can be a source of microplastics to waterways. The aim of this on-going research is to develop reliable methods for detecting and measuring microplastics in soil, study how long plastics last and break down in soil here in Manitoba (i.e., cold climates), and track how these particles move within farm fields and into surrounding waterways. This work helps clarify the environmental risks and supports better management practices for healthier soils and ecosystems.
+
+<img src = "images/plastics.jpg" align = "center">
+
+<br/>
+
+### Carbon sequestration, soil health, and productivity of non-cultivated land
+In agro-ecosystems, features such as woodlands, shelterbelts, wooded pastures, and eco-buffers often make up a significant portion of farmland. I am interested in evaluating the potential of these areas to sequester carbon and provide additional environmental benefits when compared to perennial pasture, forage, and annually cropped land. This research aims to better understand how different land uses within agricultural landscapes contribute to climate resilience and ecosystem health.
+
+<img src = "images/Buffer.jpg" width = "50%" align = "right">
+
+<img src = "images/Buffer2.jpg" width = "50%" align = "left">
+
+<br/>
 
 ### Sediment Fingerprinting
 Sediment fingerprinting refers to working in an upstream direction in an inferential manner to determine the source(s) of sediment. The approach is based on the idea that one or more of the natural physical or biogeochemical properties of the sediment will reflect its source, and therefore can be used diagnostically to identify the origin(s) of the sediment. My work has focused on using geochemical, radionuclide and colour fingerprints to assess the sources of sediment within a watershed and link it to land use/management and geomorphology. 
@@ -12,20 +28,21 @@ In these projects I both assess sources of sediment and refine the sediment fing
 
 <img src = "images/TC_Land_use_map.png" width = "50%" align = "right">
 <img src = "images/TC_DEM_map.png" width = "50%" align = "left">
-<img src = "images/LS_Land_use_map.png" width = "50%" align = "right">
-<img src = "images/LS_DEM_map.png" width = "50%" align = "left">
-<img src = "images/STC_Land_use_map.png" width = "50%" align = "right">
-<img src = "images/STC_DEM_map.png" width = "50%" align = "left">
-<img src = "images/Land_use_map_Wilsons.png" width = "50%" align = "right">
-<img src = "images/DEM_map_Wilsons.png" width = "50%" align = "left">
+<!-- <img src = "images/Land_use_map_Wilsons.png" width = "50%" align = "right"> -->
+<!-- <img src = "images/DEM_map_Wilsons.png" width = "50%" align = "left"> -->
+
+Luna Miño MA, Koiter AJ, Lobb DA (2024) Effect of sampling design on characterizing surface soil fingerprinting properties. J Soils Sediments 24:2180–2198. [Article](https://doi.org/10.1007/s11368-024-03805-x), [Open version](https://alexkoiter.ca/sampling-design-manuscript/)
 
 
 ### Riparian Management
 The riparian zone is the linkage between the terrestrial and aquatic environments and as a result is characterized by very distinct gradients in environmental conditions and processes. The riparian zone has a number of processes, including infiltration, immobilization, sedimentation and dilution, that act to buffer and intercept the flow of both dissolved and particulate material to the aquatic environment. Because of these properties, the retention or installation of riparian zones along streams is a common best management practice used in agricultural regions to moderate stream temperatures, stabilize stream banks and reduce the amount of sediment- and nutrient-rich agricultural runoff entering surface waterways
 
-In these project I am investigating if cattle grazing can be used as a management tool to reduce the potential phosphorus loss from agricultural land. The loss of phosphorus is typically high during the spring snowmelt, as the vegetation from previous years acts as a source of phosphorus and the infiltration of runoff into the frozen soil is limited. While little can be done to promote infiltration of phosphorus during this period, the amount of vegetation remaining on the soil surface can be controlled through removal during the previous autumn. Cattle grazing in the riparian area is a potential management tool that can be used to accomplish this.
+In this project I am investigating if cattle grazing can be used as a management tool to reduce the potential phosphorus loss from agricultural land. The loss of phosphorus is typically high during the spring snowmelt, as the vegetation from previous years acts as a source of phosphorus and the infiltration of runoff into the frozen soil is limited. While little can be done to promote infiltration of phosphorus during this period, the amount of vegetation remaining on the soil surface can be controlled through removal during the previous autumn. Cattle grazing in the riparian area is a potential management tool that can be used to accomplish this.
+
 
 [Click here to see an article in the MBFI Newsletter](https://static1.squarespace.com/static/59431152f7e0ab3f0144bfe9/t/5e1e3dee2ee5903aac1eb4ea/1579040241754/2020-01-14+-+MBFI+eNewsletter+Jan+2020.pdf)
+
+Koiter AJ, Malone TY (2025) Effects of riparian grazing on distinct water-extractable phosphorus sources. J Environ Qual 54:634–646 [Article](https://doi.org/10.1002/jeq2.70012); [Open version](https://alexkoiter.ca/riparian-grazing-manuscript/)
 
 <img src = "images/grazed.jpg" width = "50%" align = "right">
 <img src = "images/grazed2.jpg" width = "50%" align = "left">
