@@ -8,7 +8,11 @@ title: "Opportunities"
 
 <!-- [Learn more about this opportunity](images/MS_RISMAS_poster_2026.pdf) -->
 
-### I am not currently seeking new members for my research group. This includes all staff positions and graduate student opportunities.
+<!-- ### I am not currently seeking new members for my research group. This includes all staff positions and graduate student opportunities. -->
+
+### Research Assistant Position
+
+I am currently recruiting research assistants to join my research team from mid-July to the end of August. The project is part of Living Lab Manitoba and aims to quantify the above- and below-ground carbon inventory of treed areas in agro-ecosystems, including shelterbelts, wooded pastures, and natural forest areas, and to assess how carbon storage relates to ecosystem attributes and management practices. Field and laboratory experience with soils and vegetation would be considered an asset but is not required. For details and to apply, see the [Research Assistant I](https://www.brandonu.ca/jobs/job/research-assistant-i-department-of-geography-environment/) and [Research Assistant II](https://www.brandonu.ca/jobs/job/research-assistant-ii-department-of-geography-environment-2/) postings.
 
 <img src = "images/scanning_sm.jpg" width = "35%" align = "center">
 <img src = "images/research_site_sm.jpg" width = "35%" align = "center">
