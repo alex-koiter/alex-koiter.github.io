@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dr.&nbsp;Alex Koiter – Dr. Alex Koiter</title>
+<title>Dr.&nbsp;Alex Koiter – website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Dr.&nbsp;Alex Koiter</span>
+    <span class="navbar-title">website</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -90,27 +90,11 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text"><span style="display:none;">Dr.&nbsp;Alex Koiter</span></span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About me</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./opportunities.html"> 
-<span class="menu-text">Opportunities</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications_etc.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -123,7 +107,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#dr.-alex-koiter" id="toc-dr.-alex-koiter" class="nav-link active" data-scroll-target="#dr.-alex-koiter">Dr.&nbsp;Alex Koiter</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -157,6 +149,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="land-acknowledgement" class="level4">
 <h4 class="anchored" data-anchor-id="land-acknowledgement">Land acknowledgement</h4>
 <p>As an environmental scientist/geographer, I focus on the health of the land and water, and in doing so I want to respectfully work, learn, educate, and conduct research on traditional territories and to honour these places. It is important for me to remember that the history of the lands that I appreciate so much also includes the history of its people. I would like to acknowledge that Brandon University is located in Brandon, Manitoba, on Treaty 2 territory and the traditional homelands of the Dakota, Anishinabek, Oji-Cree, Cree, Dene and Metis peoples.</p>
+<hr>
 <p>Updated <code>r Sys.Date()</code></p>
 
 
@@ -254,7 +247,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/alexkoiter\.ca\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

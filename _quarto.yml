@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.md"
+
+website:
+  title: "Dr. Alex Koiter"
+  site-url: https://alexkoiter.ca/
+  navbar:
+    left:
+      - href: index.qmd
+      - about.qmd
+      - projects.qmd
+      - opportunities.qmd
+      - publications_etc.qmd
+      - contact.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
