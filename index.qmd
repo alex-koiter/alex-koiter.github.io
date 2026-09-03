@@ -1,5 +1,6 @@
 ---
 title: <span style = 'display:none;'>Dr. Alex Koiter</span>
+engine: knitr
 ---
 <!-- Removed the title yaml to get the picture to stay at the top -->
 
@@ -16,4 +17,4 @@ Issues surrounding the impairment of soil and water quality are widespread and e
 As an environmental scientist/geographer, I focus on the health of the land and water, and in doing so I want to respectfully work, learn, educate, and conduct research on traditional territories and to honour these places. It is important for me to remember that the history of the lands that I appreciate so much also includes the history of its people. I would like to acknowledge that Brandon University is located in Brandon, Manitoba, on Treaty 2 territory and the traditional homelands of the Dakota, Anishinabek, Oji-Cree, Cree, Dene and Metis peoples.
 
 
-Updated `r Sys.Date()`
+**Updated `r Sys.Date()`**
